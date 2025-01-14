@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+.div1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.div1 .containers{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 15%;
+}
+.div1 .containers .cont1{
+    position: relative;
+    width: 550px;
+    height: 400px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5%;
+}
+.div1 .containers .cont1 .h1{
+    margin-top: 5%;
+    width: 500px;
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.div1 .containers .cont1 p{
+    margin-top: -3%;
+    margin-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.div1 .containers .cont1 .abtLink .button{
+    margin-top: -3%;
+    margin-left: -198%;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    background: rgb(58,180,179);
+    background: linear-gradient(90deg, rgba(58,180,179,1) 0%, rgba(22,118,226,1) 50%, rgba(28,156,246,1) 100%);
+}
+.div1 .containers .cont1 .abtLink .button:hover{
+    background: rgb(23,45,133);
+    background: linear-gradient(0deg, rgba(23,45,133,1) 0%, rgba(75,161,234,1) 100%);
+}
+.evilEye{
+    width: 400px;
+    filter: drop-shadow(5px 5px 5px rgb(0, 204, 255));
+}
+.evilEyeSmall{
+    position: absolute;
+    width: 100px;
+    top: 35px;
+    left: 200px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+.div2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.div2 .containers{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 15%;
+}
+.div2 .containers .cont1 .evilEyePendant{
+    width: 350px;
+    filter: drop-shadow(5px 5px 5px rgb(158, 175, 72));
+}
+.div2 .containers .cont2{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4%;
+}
+.div2 .containers .cont2 h1{
+    width: 100%;
+    background: -webkit-linear-gradient(#f8de82, #696a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.div2 .containers .cont2 h2{
+    margin-top: -5%;
+    background: -webkit-linear-gradient(#e7eb7e, #b74004);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.div2 .containers .cont2 p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.div3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 75px;
+    padding-bottom: 5%;
+}
+.div3 .cont1{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.div3 .cont1 .d3h1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.div3 .cont1 .d3h1 h1{
+    background: -webkit-linear-gradient(white, #90908e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-left: 1%;
+}
+.div3 .cont1 .d3h1 p{
+    width: 25%;
+    color: white;
+    font-family: 'Lora', sans-serif;
+    font-size: small;
+}
+.div3 .cont1 .l2{
+    width: 22.5%;
+    margin-top: -2%;
+    border: 1px solid rgb(175, 175, 175);
+    font-weight: 900;
+    margin-left: 1%;
+}
+.div3 .cont2{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.div3 .cont2 .br .brace{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: rgb(32,55,122);
+    background: radial-gradient(circle, rgba(32,55,122,1) 0%, rgba(24,24,49,1) 90%);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 3px solid rgb(37, 49, 84);
+}
+.div3 .cont2 .br .brace .bracelet{
+    width: 200px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.div3 .cont2 .br .brace p{
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+.div3 .cont2 .br .brace .hide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.492);
+    border-radius: 25px;
+}
+.div3 .cont2 .br .brace:hover .hide{
+    display: none;
+}
+.div3 .cont2 .br .brace:hover{
+    border: 3px solid rgba(255, 255, 255, 0.679);
+}
+.div3 .cont2 .br .brace2{
+    background: rgb(64,120,122);
+    background: radial-gradient(circle, rgba(64,120,122,1) 35%, rgba(1,82,76,1) 75%);
+    border: 3px solid rgb(22, 59, 69);
+}
+.div3 .cont2 .br .brace3{
+    background: rgb(13,105,96);
+    background: radial-gradient(circle, rgb(0, 94, 148) 0%, rgb(3, 35, 51) 70%);
+    border: 3px solid rgb(24, 54, 80);
+}
+.div4{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+}
+.div4 .dl1{
+    width: 90%;
+    border: 1px solid white;
+}
+.div4 .d4c{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.div4 .d4c .img img{
+    width: 300px;
+    filter: drop-shadow(5px 5px 10px yellow);
+}
+.div4 .d4c .p{
+    position: relative;
+    height: 300px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.div4 .d4c .p h1{
+    position: absolute;
+    top: -10%;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#e7ee22, #f85e11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.div4 .d4c .p p{
+    margin-top: 18%;
+    background: -webkit-linear-gradient(#eaf200, #fe6112);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.image{
+    animation: float 4s ease-in-out infinite;
+}
+.imageD{
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes diamond{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+/* media Queries */
+/* Base styles remain the same */
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .div1, .div2, .div3, .div4 {
+        padding: 2%;
+    }
+
+    .div1 .containers .cont1 {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .div2 .containers .cont2 {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .div3 .cont1 .d3h1 h1 {
+        font-size: 2rem;
+    }
+
+    .div3 .cont2 .br .brace {
+        width: 270px;
+        height: 320px;
+    }
+
+    .div3 .cont2 .br .brace .bracelet {
+        width: 180px;
+    }
+
+    .div4 .d4c .img img {
+        width: 260px;
+    }
+
+    .div4 .d4c .p h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .div1 {
+        height: auto;
+    }
+
+    .div1 .containers .cont1 .h1 {
+        font-size: 2.5rem;
+    }
+
+    .div1 .containers .cont1 p {
+        font-size: 1rem;
+    }
+
+    .div2 {
+        height: auto;
+    }
+
+    .div2 .containers .cont1 .evilEyePendant {
+        width: 300px;
+    }
+
+    .div3 {
+        gap: 50px;
+    }
+
+    .div3 .cont2 .br .brace {
+        height: 280px;
+    }
+
+    .div4 .d4c {
+        gap: 20px;
+    }
+
+    .div4 .d4c .p h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .div1 .containers .cont1 {
+        width: 90%;
+    }
+
+    .div1 .containers .cont1 .h1 {
+        font-size: 2rem;
+    }
+
+    .div1 .containers .cont1 p {
+        font-size: 0.9rem;
+    }
+
+    .div1 .containers .cont1 .abtLink .button {
+        width: 110px;
+        height: 35px;
+    }
+
+    .div2 .containers .cont2 {
+        width: 100%;
+    }
+
+    .div2 .containers .cont2 h1 {
+        font-size: 2rem;
+    }
+
+    .div3 .cont2 .br .brace {
+        width: 230px;
+        height: 250px;
+    }
+
+    .div3 .cont2 .br .brace .bracelet {
+        width: 150px;
+    }
+
+    .div4 .d4c .img img {
+        width: 200px;
+    }
+
+    .div4 .d4c .p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .div4 .d4c .p h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+        padding: 5%;
+    }
+
+    .div1 .containers .cont1 .h1,
+    .div2 .containers .cont2 h1,
+    .div4 .d4c .p h1 {
+        font-size: 1.8rem;
+    }
+
+    .div1 .containers .cont1 p,
+    .div4 .d4c .p p {
+        font-size: 0.8rem;
+    }
+
+    .div3 .cont2 .br .brace {
+        width: 200px;
+        height: 220px;
+    }
+
+    .div4 .d4c .img img {
+        width: 180px;
+    }
+}
